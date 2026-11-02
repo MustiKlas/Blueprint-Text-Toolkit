@@ -41,8 +41,9 @@ The project is also intended to help developers prepare Blueprint logic for code
 ## Screenshots
 
 <img width="1911" height="1021" alt="Ekran görüntüsü 2026-11-02 221126" src="https://github.com/user-attachments/assets/1e8e99c7-3d47-4bff-8b2c-d557118b5820" />
-<img width="1911" height="1021" alt="Ekran görüntüsü 2026-11-02 221126" src="https://github.com/user-attachments/assets/a0d24030-b174-428c-96fb-12b0cd681690" />
-<img width="1911" height="1021" alt="Ekran görüntüsü 2026-11-02 221126" src="https://github.com/user-attachments/assets/37a4e77f-4d6a-43fb-85cc-c385faf358a9" />
+<img width="1917" height="1022" alt="Ekran görüntüsü 2026-11-02 221204" src="https://github.com/user-attachments/assets/baf39c83-0b3a-4d1b-8586-48d8c042c0a5" />
+<img width="1912" height="1015" alt="Ekran görüntüsü 2026-11-02 221220" src="https://github.com/user-attachments/assets/b1bfb0ab-d7c4-4102-a48d-038f7d8a7c32" />
+
 
 
 ## Getting Started
