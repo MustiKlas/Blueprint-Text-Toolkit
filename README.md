@@ -8,13 +8,17 @@ Blueprint exports can contain a large amount of editor-related information, iden
 
 This tool aims to reduce that noise and present the useful information in a more structured format.
 
+
 ### Windows application
 
-Download the latest Windows executable from the [Releases](../../releases) page.
+Download the latest Windows executable:
 
-Download `BlueprintTextToolkit.exe` and run it.
+[**Download Blueprint Text Toolkit for Windows**](https://github.com/MustiKlas/Blueprint-Text-Toolkit/releases/latest/download/BlueprintTextToolkit.exe)
 
 No Python installation is required to run the packaged Windows application.
+
+For source code and previous releases, visit the [Releases](../../releases) page.
+
 
 ## Features
 
