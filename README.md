@@ -8,6 +8,14 @@ Blueprint exports can contain a large amount of editor-related information, iden
 
 This tool aims to reduce that noise and present the useful information in a more structured format.
 
+### Windows application
+
+Download the latest Windows executable from the [Releases](../../releases) page.
+
+Download `BlueprintTextToolkit.exe` and run it.
+
+No Python installation is required to run the packaged Windows application.
+
 ## Features
 
 - Process copied or exported Unreal Engine Blueprint text.
@@ -50,8 +58,8 @@ Requirements:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/MustiKlas/Blueprint-Text-Toolkit.git
+cd Blueprint-Text-Toolkit
 ```
 
 Create a virtual environment:
