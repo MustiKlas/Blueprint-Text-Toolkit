@@ -1,0 +1,3030 @@
+{
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\", \"operation_name\": \"GetHexWorldPosition\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Coord\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+      "operation_name": "GetHexWorldPosition",
+      "pins": [
+        {
+          "name": "Coord",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 15,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionResult\", \"operation_name\": \"GetHexWorldPosition\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"WorldLocation\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Input\", \"name\": \"execute\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionResult",
+      "operation_name": "GetHexWorldPosition",
+      "pins": [
+        {
+          "name": "WorldLocation",
+          "type": "struct",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": "EGPD_Input"
+        }
+      ]
+    },
+    "occurrences": 15,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"Conv_IntToDouble\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"InInt\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "Conv_IntToDouble",
+      "pins": [
+        {
+          "name": "InInt",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 46,
+    "behavior": {
+      "kind": "conversion",
+      "input_pin": "InInt",
+      "output_pin": "ReturnValue",
+      "source_type": "int",
+      "target_type": "real:double",
+      "resolution": "passthrough"
+    },
+    "learning_status": "learned"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Multiply\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Multiply",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 96,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Add\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Add",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 56,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Multiply\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"int\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"int\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Multiply",
+      "pins": [
+        {
+          "name": "A",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "int",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 54,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"MakeVector\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Input\", \"name\": \"X\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"Y\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"Z\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "MakeVector",
+      "pins": [
+        {
+          "name": "ReturnValue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "X",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "Y",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "Z",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 15,
+    "behavior": {
+      "kind": "make_vector",
+      "input_pins": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "output_pin": "ReturnValue",
+      "resolution": "combine_components"
+    },
+    "learning_status": "learned"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_BreakStruct\", \"operation_name\": \"BreakStruct\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"F_HexCoord\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Q_4_F5E04FB54C2F16484CE9B3B459961A45\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"R_5_C648BE874C3E2E308FFB31BD81225B4D\", \"type\": \"int\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_BreakStruct",
+      "operation_name": "BreakStruct",
+      "pins": [
+        {
+          "name": "F_HexCoord",
+          "type": "struct",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "Q_4_F5E04FB54C2F16484CE9B3B459961A45",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "R_5_C648BE874C3E2E308FFB31BD81225B4D",
+          "type": "int",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 18,
+    "behavior": {
+      "kind": "break_struct",
+      "input_pin": "F_HexCoord",
+      "output_pins": [
+        "Q_4_F5E04FB54C2F16484CE9B3B459961A45",
+        "R_5_C648BE874C3E2E308FFB31BD81225B4D"
+      ],
+      "resolution": "extract_fields"
+    },
+    "learning_status": "learned"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\", \"operation_name\": \"GetChunkAtWorldPosition\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"WorldLocation\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+      "operation_name": "GetChunkAtWorldPosition",
+      "pins": [
+        {
+          "name": "WorldLocation",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 3,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionResult\", \"operation_name\": \"GetChunkAtWorldPosition\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"ChunkCenterHex\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Input\", \"name\": \"execute\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionResult",
+      "operation_name": "GetChunkAtWorldPosition",
+      "pins": [
+        {
+          "name": "ChunkCenterHex",
+          "type": "struct",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": "EGPD_Input"
+        }
+      ]
+    },
+    "occurrences": 3,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ChunkSize\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "ChunkSize",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 3,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Add\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"int\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"int\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Add",
+      "pins": [
+        {
+          "name": "A",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "int",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 17,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Subtract\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"int\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"int\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Subtract",
+      "pins": [
+        {
+          "name": "A",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "int",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 3,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Divide\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"int\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"int\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Divide",
+      "pins": [
+        {
+          "name": "A",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "int",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 6,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_MakeStruct\", \"operation_name\": \"MakeStruct\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"F_HexCoord\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Q_4_F5E04FB54C2F16484CE9B3B459961A45\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"R_5_C648BE874C3E2E308FFB31BD81225B4D\", \"type\": \"int\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_MakeStruct",
+      "operation_name": "MakeStruct",
+      "pins": [
+        {
+          "name": "F_HexCoord",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Q_4_F5E04FB54C2F16484CE9B3B459961A45",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "R_5_C648BE874C3E2E308FFB31BD81225B4D",
+          "type": "int",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 6,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetHexAtWorldPosition_CPP\", \"pins\": [{\"direction\": \"\", \"name\": \"HexSize\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"OutQ\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"OutR\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"WorldLocation\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetHexAtWorldPosition_CPP",
+      "pins": [
+        {
+          "name": "HexSize",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "OutQ",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "OutR",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "WorldLocation",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\", \"operation_name\": \"UpdateLoadedChunks\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+      "operation_name": "UpdateLoadedChunks",
+      "pins": [
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"TargetFollow\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "TargetFollow",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"IsValid\", \"pins\": [{\"direction\": \"\", \"name\": \"Object\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "IsValid",
+      "pins": [
+        {
+          "name": "Object",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 10,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_IfThenElse\", \"operation_name\": \"\", \"pins\": [{\"direction\": \"\", \"name\": \"Condition\", \"type\": \"bool\"}, {\"direction\": \"EGPD_Output\", \"name\": \"else\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_IfThenElse",
+      "operation_name": "",
+      "pins": [
+        {
+          "name": "Condition",
+          "type": "bool",
+          "direction": ""
+        },
+        {
+          "name": "else",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 37,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionResult\", \"operation_name\": \"UpdateLoadedChunks\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"execute\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionResult",
+      "operation_name": "UpdateLoadedChunks",
+      "pins": [
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": "EGPD_Input"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"K2_GetActorLocation\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "K2_GetActorLocation",
+      "pins": [
+        {
+          "name": "ReturnValue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableSet\", \"operation_name\": \"VariableSet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Output_Get\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Output_Get_Q_4_F5E04FB54C2F16484CE9B3B459961A45\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Output_Get_R_5_C648BE874C3E2E308FFB31BD81225B4D\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"PlayerChunk\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableSet",
+      "operation_name": "VariableSet",
+      "pins": [
+        {
+          "name": "Output_Get",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Output_Get_Q_4_F5E04FB54C2F16484CE9B3B459961A45",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Output_Get_R_5_C648BE874C3E2E308FFB31BD81225B4D",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "PlayerChunk",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"CurrentChunk\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"CurrentChunk_Q_4_F5E04FB54C2F16484CE9B3B459961A45\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"CurrentChunk_R_5_C648BE874C3E2E308FFB31BD81225B4D\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "CurrentChunk",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "CurrentChunk_Q_4_F5E04FB54C2F16484CE9B3B459961A45",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "CurrentChunk_R_5_C648BE874C3E2E308FFB31BD81225B4D",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"EqualEqual\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"int\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"ErrorTolerance\", \"type\": \"\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"bool\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "EqualEqual",
+      "pins": [
+        {
+          "name": "A",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ErrorTolerance",
+          "type": "",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator\", \"operation_name\": \"BooleanAND\", \"pins\": [{\"direction\": \"\", \"name\": \"A\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"B\", \"type\": \"bool\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+      "operation_name": "BooleanAND",
+      "pins": [
+        {
+          "name": "A",
+          "type": "bool",
+          "direction": ""
+        },
+        {
+          "name": "B",
+          "type": "bool",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableSet\", \"operation_name\": \"VariableSet\", \"pins\": [{\"direction\": \"\", \"name\": \"CurrentChunk\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Output_Get\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableSet",
+      "operation_name": "VariableSet",
+      "pins": [
+        {
+          "name": "CurrentChunk",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Output_Get",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"PlayerChunk\", \"type\": \"struct\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "PlayerChunk",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"CalculateChunkChanges\", \"pins\": [{\"direction\": \"\", \"name\": \"DesiredChunks\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"DestroyChunks\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"LoadedChunks\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"SpawnChunks\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "CalculateChunkChanges",
+      "pins": [
+        {
+          "name": "DesiredChunks",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "DestroyChunks",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "LoadedChunks",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "SpawnChunks",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetChunksInRadius\", \"pins\": [{\"direction\": \"\", \"name\": \"CenterHex\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ChunksCoord\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Radius\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetChunksInRadius",
+      "pins": [
+        {
+          "name": "CenterHex",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "ChunksCoord",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Radius",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"LoadedChunks\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "LoadedChunks",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableSet\", \"operation_name\": \"VariableSet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Output_Get\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"SpawnQueue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableSet",
+      "operation_name": "VariableSet",
+      "pins": [
+        {
+          "name": "Output_Get",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "SpawnQueue",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableSet\", \"operation_name\": \"VariableSet\", \"pins\": [{\"direction\": \"\", \"name\": \"DestroyQueue\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Output_Get\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableSet",
+      "operation_name": "VariableSet",
+      "pins": [
+        {
+          "name": "DestroyQueue",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Output_Get",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallArrayFunction\", \"operation_name\": \"Array_Length\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"TargetArray\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallArrayFunction",
+      "operation_name": "Array_Length",
+      "pins": [
+        {
+          "name": "ReturnValue",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "TargetArray",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Greater\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"int\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"ErrorTolerance\", \"type\": \"\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"bool\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Greater",
+      "pins": [
+        {
+          "name": "A",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ErrorTolerance",
+          "type": "",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"CE_ProcessSpawnQueue\", \"pins\": [{\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "CE_ProcessSpawnQueue",
+      "pins": [
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"CE_ProcessDestroyQueue\", \"pins\": [{\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "CE_ProcessDestroyQueue",
+      "pins": [
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ChunkLoadRadius\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "ChunkLoadRadius",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetChunkAtWorldPosition\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ChunkCenterHex\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"WorldLocation\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetChunkAtWorldPosition",
+      "pins": [
+        {
+          "name": "ChunkCenterHex",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "WorldLocation",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\", \"operation_name\": \"GetHexNoiseData\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Frequency\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"HexCoord\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Seed\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Seed_Frequency\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+      "operation_name": "GetHexNoiseData",
+      "pins": [
+        {
+          "name": "Frequency",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "HexCoord",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Seed",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Seed_Frequency",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"BreakVector\", \"pins\": [{\"direction\": \"\", \"name\": \"InVec\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"X\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Y\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Z\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "BreakVector",
+      "pins": [
+        {
+          "name": "InVec",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "X",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Y",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Z",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 4,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"PerlinNoise1D\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"Value\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "PerlinNoise1D",
+      "pins": [
+        {
+          "name": "ReturnValue",
+          "type": "real:float",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Value",
+          "type": "real:float",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 24,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Add\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Add",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 4,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Add\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"C\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"D\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Add",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "C",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "D",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Divide\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Divide",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 12,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"MapRangeClamped\", \"pins\": [{\"direction\": \"\", \"name\": \"InRangeA\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"InRangeB\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"OutRangeA\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"OutRangeB\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"Value\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "MapRangeClamped",
+      "pins": [
+        {
+          "name": "InRangeA",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "InRangeB",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "OutRangeA",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "OutRangeB",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Value",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 12,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionResult\", \"operation_name\": \"GetHexNoiseData\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"Height\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"Moisture\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"execute\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionResult",
+      "operation_name": "GetHexNoiseData",
+      "pins": [
+        {
+          "name": "Height",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "Moisture",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": "EGPD_Input"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Multiply\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"int\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Multiply",
+      "pins": [
+        {
+          "name": "A",
+          "type": "int",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetHexWorldPosition\", \"pins\": [{\"direction\": \"\", \"name\": \"Coord\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"WorldLocation\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetHexWorldPosition",
+      "pins": [
+        {
+          "name": "Coord",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "WorldLocation",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableSet\", \"operation_name\": \"VariableSet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Output_Get\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"U\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableSet",
+      "operation_name": "VariableSet",
+      "pins": [
+        {
+          "name": "Output_Get",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "U",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableSet\", \"operation_name\": \"VariableSet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Output_Get\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"V\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableSet",
+      "operation_name": "VariableSet",
+      "pins": [
+        {
+          "name": "Output_Get",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "V",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Multiply\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"C\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Multiply",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "C",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 12,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Subtract\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Subtract",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 6,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"MakeRandomStream\", \"pins\": [{\"direction\": \"\", \"name\": \"InitialSeed\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "MakeRandomStream",
+      "pins": [
+        {
+          "name": "InitialSeed",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"RandomFloatInRangeFromStream\", \"pins\": [{\"direction\": \"\", \"name\": \"Max\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"Min\", \"type\": \"real:float\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"Stream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "RandomFloatInRangeFromStream",
+      "pins": [
+        {
+          "name": "Max",
+          "type": "real:float",
+          "direction": ""
+        },
+        {
+          "name": "Min",
+          "type": "real:float",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:float",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Stream",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 4,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\", \"operation_name\": \"InitializeWorld\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+      "operation_name": "InitializeWorld",
+      "pins": [
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetPlayerPawn\", \"pins\": [{\"direction\": \"\", \"name\": \"PlayerIndex\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"WorldContextObject\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetPlayerPawn",
+      "pins": [
+        {
+          "name": "PlayerIndex",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "WorldContextObject",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableSet\", \"operation_name\": \"VariableSet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Output_Get\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"TargetFollow\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableSet",
+      "operation_name": "VariableSet",
+      "pins": [
+        {
+          "name": "Output_Get",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "TargetFollow",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionResult\", \"operation_name\": \"InitializeWorld\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"execute\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionResult",
+      "operation_name": "InitializeWorld",
+      "pins": [
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": "EGPD_Input"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"Set_Clear\", \"pins\": [{\"direction\": \"\", \"name\": \"TargetSet\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "Set_Clear",
+      "pins": [
+        {
+          "name": "TargetSet",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"SpawnQueue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "SpawnQueue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallArrayFunction\", \"operation_name\": \"Array_Clear\", \"pins\": [{\"direction\": \"\", \"name\": \"TargetArray\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallArrayFunction",
+      "operation_name": "Array_Clear",
+      "pins": [
+        {
+          "name": "TargetArray",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"DestroyQueue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "DestroyQueue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"UpdateLoadedChunks\", \"pins\": [{\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "UpdateLoadedChunks",
+      "pins": [
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"LoadedChunkActors\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "LoadedChunkActors",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"Map_Clear\", \"pins\": [{\"direction\": \"\", \"name\": \"TargetMap\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "Map_Clear",
+      "pins": [
+        {
+          "name": "TargetMap",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\", \"operation_name\": \"CalculateRandomTransform\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Center_Location\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Height\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"MaxScale\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"MinScale\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"RandomStream\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Size\", \"type\": \"byte\"}, {\"direction\": \"EGPD_Output\", \"name\": \"bRandomYaw\", \"type\": \"bool\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+      "operation_name": "CalculateRandomTransform",
+      "pins": [
+        {
+          "name": "Center_Location",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Height",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "MaxScale",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "MinScale",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "RandomStream",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Size",
+          "type": "byte",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "bRandomYaw",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionResult\", \"operation_name\": \"CalculateRandomTransform\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"OutTransform\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Input\", \"name\": \"execute\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionResult",
+      "operation_name": "CalculateRandomTransform",
+      "pins": [
+        {
+          "name": "OutTransform",
+          "type": "struct",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": "EGPD_Input"
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"SelectFloat\", \"pins\": [{\"direction\": \"\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"bPickA\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "SelectFloat",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "bPickA",
+          "type": "bool",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"MakeTransform\", \"pins\": [{\"direction\": \"\", \"name\": \"Location\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Location_X\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"Location_Y\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"Location_Z\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Rotation\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Rotation_Pitch\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"Rotation_Roll\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"Rotation_Yaw\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"Scale\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "MakeTransform",
+      "pins": [
+        {
+          "name": "Location",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Location_X",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "Location_Y",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "Location_Z",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Rotation",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Rotation_Pitch",
+          "type": "real:float",
+          "direction": ""
+        },
+        {
+          "name": "Rotation_Roll",
+          "type": "real:float",
+          "direction": ""
+        },
+        {
+          "name": "Rotation_Yaw",
+          "type": "real:float",
+          "direction": ""
+        },
+        {
+          "name": "Scale",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 2,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_SwitchEnum\", \"operation_name\": \"\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"NewEnumerator0\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"NewEnumerator1\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"NewEnumerator2\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"NotEqual_ByteByte\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"Selection\", \"type\": \"byte\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_SwitchEnum",
+      "operation_name": "",
+      "pins": [
+        {
+          "name": "NewEnumerator0",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "NewEnumerator1",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "NewEnumerator2",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "NotEqual_ByteByte",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "Selection",
+          "type": "byte",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"Add\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"struct\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "Add",
+      "pins": [
+        {
+          "name": "A",
+          "type": "struct",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "struct",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ReturnValue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"Conv_DoubleToVector\", \"pins\": [{\"direction\": \"\", \"name\": \"InDouble\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "Conv_DoubleToVector",
+      "pins": [
+        {
+          "name": "InDouble",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"RandomIntegerInRangeFromStream\", \"pins\": [{\"direction\": \"\", \"name\": \"Max\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"Min\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"Stream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "RandomIntegerInRangeFromStream",
+      "pins": [
+        {
+          "name": "Max",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "Min",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Stream",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_Select\", \"operation_name\": \"\", \"pins\": [{\"direction\": \"\", \"name\": \"Index\", \"type\": \"byte\"}, {\"direction\": \"\", \"name\": \"NewEnumerator0\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"NewEnumerator1\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"NewEnumerator2\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"int\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_Select",
+      "operation_name": "",
+      "pins": [
+        {
+          "name": "Index",
+          "type": "byte",
+          "direction": ""
+        },
+        {
+          "name": "NewEnumerator0",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "NewEnumerator1",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "NewEnumerator2",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "int",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetTriangleOffset\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Offset\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"TriangleIndex\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetTriangleOffset",
+      "pins": [
+        {
+          "name": "Offset",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "TriangleIndex",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 1,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\", \"operation_name\": \"SpawnEnvironmentObjects\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"EnvironmentDataTable\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"HexDataArray\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"WorldSeed\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+      "operation_name": "SpawnEnvironmentObjects",
+      "pins": [
+        {
+          "name": "EnvironmentDataTable",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "HexDataArray",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "WorldSeed",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_BreakStruct\", \"operation_name\": \"BreakStruct\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Biome_22_EEB558E64E66E0684B6967A3C5559986\", \"type\": \"byte\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Coord_21_5FD29F77410491B3D8BDF49928F4F805\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"F_HexData\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"GroundInstanceIndex_14_095D64514C98FE40DD5BBA9EC49A3B70\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Height_24_628376D14D9871E5B29C3F8AEB4F7B9D\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"IsLoaded_17_2BD23C89431376BE4D954DB3676518F2\", \"type\": \"bool\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Moisture_8_A116C99E471410E315B78184562FFD60\", \"type\": \"real:double\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_BreakStruct",
+      "operation_name": "BreakStruct",
+      "pins": [
+        {
+          "name": "Biome_22_EEB558E64E66E0684B6967A3C5559986",
+          "type": "byte",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Coord_21_5FD29F77410491B3D8BDF49928F4F805",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "F_HexData",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "GroundInstanceIndex_14_095D64514C98FE40DD5BBA9EC49A3B70",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Height_24_628376D14D9871E5B29C3F8AEB4F7B9D",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "IsLoaded_17_2BD23C89431376BE4D954DB3676518F2",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Moisture_8_A116C99E471410E315B78184562FFD60",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetHexWorldPosition\", \"pins\": [{\"direction\": \"\", \"name\": \"Coord\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"WorldLocation\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetHexWorldPosition",
+      "pins": [
+        {
+          "name": "Coord",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "WorldLocation",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GenerateHexSeed\", \"pins\": [{\"direction\": \"\", \"name\": \"Coord\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"RandomStream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"WorldSeed\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GenerateHexSeed",
+      "pins": [
+        {
+          "name": "Coord",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "RandomStream",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "WorldSeed",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"CalculateHexNoise\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"CombinedNoise\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"Location\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"ObjectIndex\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"WorldSeed\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "CalculateHexNoise",
+      "pins": [
+        {
+          "name": "CombinedNoise",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Location",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "ObjectIndex",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "WorldSeed",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_MacroInstance\", \"operation_name\": \"\", \"pins\": [{\"direction\": \"\", \"name\": \"Array\", \"type\": \"name\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Array Element\", \"type\": \"name\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Array Index\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"Break\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Completed\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"Exec\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"LoopBody\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_MacroInstance",
+      "operation_name": "",
+      "pins": [
+        {
+          "name": "Array",
+          "type": "name",
+          "direction": ""
+        },
+        {
+          "name": "Array Element",
+          "type": "name",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Array Index",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Break",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "Completed",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Exec",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "LoopBody",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"ShouldSpawnObject\", \"pins\": [{\"direction\": \"\", \"name\": \"ClusterNoise\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"CombinedNoise\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"CurrentBiome\", \"type\": \"byte\"}, {\"direction\": \"\", \"name\": \"Location\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"NoiseThreshold\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"ObjectIndex\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"RandomStream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"SpawnChance\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"TargetBiome\", \"type\": \"byte\"}, {\"direction\": \"\", \"name\": \"WorldSeed\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"bShouldSpawn\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "ShouldSpawnObject",
+      "pins": [
+        {
+          "name": "ClusterNoise",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "CombinedNoise",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "CurrentBiome",
+          "type": "byte",
+          "direction": ""
+        },
+        {
+          "name": "Location",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "NoiseThreshold",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "ObjectIndex",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "RandomStream",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "SpawnChance",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "TargetBiome",
+          "type": "byte",
+          "direction": ""
+        },
+        {
+          "name": "WorldSeed",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "bShouldSpawn",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_GetDataTableRow\", \"operation_name\": \"\", \"pins\": [{\"direction\": \"\", \"name\": \"DataTable\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"RowName\", \"type\": \"name\"}, {\"direction\": \"EGPD_Output\", \"name\": \"RowNotFound\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_GetDataTableRow",
+      "operation_name": "",
+      "pins": [
+        {
+          "name": "DataTable",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "RowName",
+          "type": "name",
+          "direction": ""
+        },
+        {
+          "name": "RowNotFound",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_BreakStruct\", \"operation_name\": \"BreakStruct\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ChildCollisionProfile_72_CAE9E63F48AC01B0B693AEAA80EC9D7D\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ChildMesh_69_38ECCF7F4FC1771D77FA879C0CF45E48\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ClusterNoise_66_FF9B2EFD488E7D4EC89233A2C36457E1\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"CollisionProfile_36_A2B5922948C955E3B293BD8E6FBFBAB0\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"MaxScale_54_6D0CF015496C40D280D8A6B973E4FABB\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"MeshVariations_32_E563E7994B80C84A4E1135BEF62521BA\", \"type\": \"object\"}, {\"direction\": \"EGPD_Output\", \"name\": \"MinScale_52_B3C815FB43A8C1508E7AD7A1F1063A8F\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"NoiseThreshold_50_EE43471641960A13FF5DE4BA0DEB4698\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ObjectID_2_69A2F90140FC01539D9A6AA55988C266\", \"type\": \"name\"}, {\"direction\": \"\", \"name\": \"ST_EnvironmentObjectData\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"Size_62_0A131AF34373473981C45EADD9411629\", \"type\": \"byte\"}, {\"direction\": \"EGPD_Output\", \"name\": \"SpawnChance_11_AC219ADB41650D3C5BBDCABD099510B7\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"TargetBiome_63_7D3993EC4ED57BD6D2DAC7800DBD4B6D\", \"type\": \"byte\"}, {\"direction\": \"EGPD_Output\", \"name\": \"bCastShadow_59_55D3BEB54FF44B21DF8D6994A5FD2734\", \"type\": \"bool\"}, {\"direction\": \"EGPD_Output\", \"name\": \"bRandomYaw_57_1E3E654042F23734881E289764A20511\", \"type\": \"bool\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_BreakStruct",
+      "operation_name": "BreakStruct",
+      "pins": [
+        {
+          "name": "ChildCollisionProfile_72_CAE9E63F48AC01B0B693AEAA80EC9D7D",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "ChildMesh_69_38ECCF7F4FC1771D77FA879C0CF45E48",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "ClusterNoise_66_FF9B2EFD488E7D4EC89233A2C36457E1",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "CollisionProfile_36_A2B5922948C955E3B293BD8E6FBFBAB0",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "MaxScale_54_6D0CF015496C40D280D8A6B973E4FABB",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "MeshVariations_32_E563E7994B80C84A4E1135BEF62521BA",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "MinScale_52_B3C815FB43A8C1508E7AD7A1F1063A8F",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "NoiseThreshold_50_EE43471641960A13FF5DE4BA0DEB4698",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "ObjectID_2_69A2F90140FC01539D9A6AA55988C266",
+          "type": "name",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "ST_EnvironmentObjectData",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Size_62_0A131AF34373473981C45EADD9411629",
+          "type": "byte",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "SpawnChance_11_AC219ADB41650D3C5BBDCABD099510B7",
+          "type": "real:double",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "TargetBiome_63_7D3993EC4ED57BD6D2DAC7800DBD4B6D",
+          "type": "byte",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "bCastShadow_59_55D3BEB54FF44B21DF8D6994A5FD2734",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "bRandomYaw_57_1E3E654042F23734881E289764A20511",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"CheckAndOccupyHexes\", \"pins\": [{\"direction\": \"\", \"name\": \"CenterCoord\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Size\", \"type\": \"byte\"}, {\"direction\": \"EGPD_Output\", \"name\": \"bCanSpawn\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "CheckAndOccupyHexes",
+      "pins": [
+        {
+          "name": "CenterCoord",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Size",
+          "type": "byte",
+          "direction": ""
+        },
+        {
+          "name": "bCanSpawn",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"CalculateRandomTransform\", \"pins\": [{\"direction\": \"\", \"name\": \"Center_Location\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Height\", \"type\": \"int\"}, {\"direction\": \"\", \"name\": \"MaxScale\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"MinScale\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Output\", \"name\": \"OutTransform\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"RandomStream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Size\", \"type\": \"byte\"}, {\"direction\": \"\", \"name\": \"bRandomYaw\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "CalculateRandomTransform",
+      "pins": [
+        {
+          "name": "Center_Location",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Height",
+          "type": "int",
+          "direction": ""
+        },
+        {
+          "name": "MaxScale",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "MinScale",
+          "type": "real:double",
+          "direction": ""
+        },
+        {
+          "name": "OutTransform",
+          "type": "struct",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "RandomStream",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Size",
+          "type": "byte",
+          "direction": ""
+        },
+        {
+          "name": "bRandomYaw",
+          "type": "bool",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallArrayFunction\", \"operation_name\": \"Array_RandomFromStream\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"OutIndex\", \"type\": \"int\"}, {\"direction\": \"EGPD_Output\", \"name\": \"OutItem\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"RandomStream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"TargetArray\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallArrayFunction",
+      "operation_name": "Array_RandomFromStream",
+      "pins": [
+        {
+          "name": "OutIndex",
+          "type": "int",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "OutItem",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "RandomStream",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "TargetArray",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"GetOrCreateHISM\", \"pins\": [{\"direction\": \"\", \"name\": \"CollisionProfileName\", \"type\": \"struct\"}, {\"direction\": \"EGPD_Output\", \"name\": \"HISMComponent\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"InMesh\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "GetOrCreateHISM",
+      "pins": [
+        {
+          "name": "CollisionProfileName",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "HISMComponent",
+          "type": "object",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "InMesh",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 16,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"SpawnInstanceWithSettings\", \"pins\": [{\"direction\": \"\", \"name\": \"CollisionProfile\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"InstanceTransform\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"StaticMesh\", \"type\": \"object\"}, {\"direction\": \"\", \"name\": \"bCastShadow\", \"type\": \"bool\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "SpawnInstanceWithSettings",
+      "pins": [
+        {
+          "name": "CollisionProfile",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "InstanceTransform",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "StaticMesh",
+          "type": "object",
+          "direction": ""
+        },
+        {
+          "name": "bCastShadow",
+          "type": "bool",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 16,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_VariableGet\", \"operation_name\": \"VariableGet\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"CachedRowNames\", \"type\": \"name\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_VariableGet",
+      "operation_name": "VariableGet",
+      "pins": [
+        {
+          "name": "CachedRowNames",
+          "type": "name",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"RandomFloatFromStream\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"real:float\"}, {\"direction\": \"\", \"name\": \"Stream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "RandomFloatFromStream",
+      "pins": [
+        {
+          "name": "ReturnValue",
+          "type": "real:float",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Stream",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object",
+          "direction": ""
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_PromotableOperator\", \"operation_name\": \"LessEqual\", \"pins\": [{\"direction\": \"EGPD_Input\", \"name\": \"A\", \"type\": \"real:double\"}, {\"direction\": \"EGPD_Input\", \"name\": \"B\", \"type\": \"real:double\"}, {\"direction\": \"\", \"name\": \"ErrorTolerance\", \"type\": \"\"}, {\"direction\": \"EGPD_Output\", \"name\": \"ReturnValue\", \"type\": \"bool\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+      "operation_name": "LessEqual",
+      "pins": [
+        {
+          "name": "A",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "B",
+          "type": "real:double",
+          "direction": "EGPD_Input"
+        },
+        {
+          "name": "ErrorTolerance",
+          "type": "",
+          "direction": ""
+        },
+        {
+          "name": "ReturnValue",
+          "type": "bool",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  },
+  "{\"node_class\": \"/Script/BlueprintGraph.K2Node_CallFunction\", \"operation_name\": \"ShuffleArrayWithStream\", \"pins\": [{\"direction\": \"EGPD_Output\", \"name\": \"Out Array\", \"type\": \"name\"}, {\"direction\": \"\", \"name\": \"Stream\", \"type\": \"struct\"}, {\"direction\": \"\", \"name\": \"Target Array\", \"type\": \"name\"}, {\"direction\": \"\", \"name\": \"execute\", \"type\": \"exec\"}, {\"direction\": \"\", \"name\": \"self\", \"type\": \"object:self\"}, {\"direction\": \"EGPD_Output\", \"name\": \"then\", \"type\": \"exec\"}]}": {
+    "signature": {
+      "node_class": "/Script/BlueprintGraph.K2Node_CallFunction",
+      "operation_name": "ShuffleArrayWithStream",
+      "pins": [
+        {
+          "name": "Out Array",
+          "type": "name",
+          "direction": "EGPD_Output"
+        },
+        {
+          "name": "Stream",
+          "type": "struct",
+          "direction": ""
+        },
+        {
+          "name": "Target Array",
+          "type": "name",
+          "direction": ""
+        },
+        {
+          "name": "execute",
+          "type": "exec",
+          "direction": ""
+        },
+        {
+          "name": "self",
+          "type": "object:self",
+          "direction": ""
+        },
+        {
+          "name": "then",
+          "type": "exec",
+          "direction": "EGPD_Output"
+        }
+      ]
+    },
+    "occurrences": 8,
+    "behavior": null,
+    "learning_status": "observed"
+  }
+}
