@@ -40,7 +40,8 @@ The project is also intended to help developers prepare Blueprint logic for code
 
 ## Screenshots
 
-Screenshots will be added here.
+<img width="1911" height="1021" alt="Ekran görüntüsü 2026-11-02 221126" src="https://github.com/user-attachments/assets/1e8e99c7-3d47-4bff-8b2c-d557118b5820" />
+
 
 ## Getting Started
 
